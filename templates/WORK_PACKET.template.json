@@ -1,0 +1,27 @@
+{
+  "schema": "agent_governance_handbook.work_packet.v1",
+  "packet_id": "REPLACE: unique packet id, e.g. WP-20260101-topic",
+  "boot_path": "REPLACE: task class — docs_cleanup | validator_change | implementation | behavior_repair | governance_change | continuation",
+  "risk_class": "REPLACE: low | medium | high",
+  "affected_area": "REPLACE: the surface this packet is allowed to change",
+  "concept": "REPLACE: what this change is, in one paragraph, written BEFORE the work starts",
+  "out_of_scope": [
+    "REPLACE: adjacent things this packet deliberately does NOT touch"
+  ],
+  "behavior_validators": [
+    "REPLACE: command that proves the changed behavior works (tests, replay, smoke)"
+  ],
+  "structure_validators": [
+    "REPLACE: command that proves the repo/control structure is intact (schema check, lint, topology validator)",
+    "git diff --cached --check"
+  ],
+  "completion_contract": {
+    "done_when": [
+      "REPLACE: observable condition 1",
+      "REPLACE: observable condition 2"
+    ],
+    "deferred_higher_priority_work": []
+  },
+  "real_stop_condition_if_stopping": "none | explicit_user_instruction_required | blocked | missing_required_files_credentials_tools_licenses_or_assets | validation_failure_unrepairable | external_action_not_explicitly_authorized | explicit_user_stop | scope_boundary_reached",
+  "_convention": "Fill every REPLACE: value before starting work. A commit with any remaining 'REPLACE:' string must be rejected by hook/CI (e.g. `git grep -n 'REPLACE:' -- <packet-path>`). The packet is a pre-declaration, not a post-hoc report."
+}

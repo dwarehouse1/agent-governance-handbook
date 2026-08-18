@@ -1,0 +1,2 @@
+hypothesis_id,family,registered_utc,spec_path,spec_sha256,evidence_class,status,kill_condition_summary
+H-EXAMPLE-1,FAMILY-A,2026-01-01T00:00:00+00:00,specs/H_EXAMPLE_1_SPEC_V1_LOCKED.md,<sha256-of-locked-spec-file>,LOCKED,ACTIVE,"pre-registered kill conditions, e.g.: net12mo<=0; cost>threshold; drawdown>limit"

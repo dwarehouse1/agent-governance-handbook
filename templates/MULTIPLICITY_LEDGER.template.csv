@@ -1,0 +1,3 @@
+trial_id,hypothesis_id,variant_desc,dataset_span,run_utc,raw_metric,notes
+EX-0001,H-EXAMPLE,"baseline variant, describe exactly what was tried",2025-01-01..2026-01-01,2026-01-01T00:00:00+00:00,"metric=+0.00 (record the raw result, good or bad)","EXPLORATORY; evidence class + known caveats + handoff notes"
+EX-0002,H-EXAMPLE,"variant with parameter X changed to Y (every variant gets its own row)",2025-01-01..2026-01-01,2026-01-01T00:00:00+00:00,metric=+0.00,"EXPLORATORY; if this run later turns out invalid, annotate it here — never delete the row"

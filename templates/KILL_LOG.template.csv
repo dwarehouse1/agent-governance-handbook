@@ -1,0 +1,2 @@
+kill_id,hypothesis_id,killed_utc,evidence_class_at_kill,reason,artifact_ref
+K-0001,H-EXAMPLE,2026-01-01T00:00:00+00:00,EXPLORATORY_DESIGN,"one-line mechanism of the rejection (not just 'it failed')",path/to/KILL_RECORD.md
