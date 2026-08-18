@@ -59,9 +59,11 @@ AIエージェントの検証規律が実際に機能した記録。エージェ
 
 公開にあたってのサニタイズ判断は [SANITIZATION_POLICY.md](SANITIZATION_POLICY.md) に明文化し、各ファイル末尾に出所を記録している。ロック済み仮説の詳細・製品内部情報・研究内容そのものは含まれない。
 
-## License(案 — 確定前)
+## License
 
-コード・テンプレート: MIT / 文書: CC-BY-4.0 を提案中([LICENSING_PROPOSAL.md](LICENSING_PROPOSAL.md))。ライセンス確定までの間、再配布はご遠慮ください。
+コード・テンプレート([templates/](templates/) 以下): [MIT](LICENSE) / 文書(patterns・case-studies・README等): [CC BY 4.0](LICENSE-docs)。
+
+Code and templates are licensed under MIT. Documentation (patterns, case studies, README) is licensed under CC BY 4.0.
 
 ---
 
@@ -77,5 +79,4 @@ AIエージェントの検証規律が実際に機能した記録。エージェ
 
 ---
 
-<!-- 相談導線(ユーザー確認待ち。REVIEW_SUMMARY.mdの3案から選択) -->
 エージェント運用・検証体制の構築や監査のご相談: GitHubのIssueまたは [zenn.dev/sobani_dev](https://zenn.dev/sobani_dev) までどうぞ。

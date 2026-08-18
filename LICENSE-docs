@@ -1,0 +1,19 @@
+Documentation License
+=====================
+
+The documentation in this repository — the files under patterns/ and
+case-studies/, README.md, and SANITIZATION_POLICY.md — is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2026 dwarehouse1
+
+You are free to share and adapt this documentation for any purpose, including
+commercially, provided you give appropriate credit (attribution to
+"dwarehouse1, Agent Governance Handbook,
+https://github.com/dwarehouse1/agent-governance-handbook"), provide a link to
+the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code and template files (everything under templates/ and any scripts) are
+licensed under the MIT License instead — see the LICENSE file.
